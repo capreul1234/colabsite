@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Envie uma mensagem</h1>
+    <form action="#" method="POST" id="formDados" name="formDados">
+        <input type="text" size="30" name="nome" placeholder="Eduardo Henrique" id="nome"><br><br>
+        <input type="email" size="30" name="email" placeholder="eduardo.ed322@gmail.com" id="email"><br><br>
+        <input type="radio" name="sexo" value="Masc" id="sexoMasc">M
+        <input type="radio" name="sexo" value="Fem" id="sexoFem">F <br><br>
+        <select name="generoFilme" id="generoFilme">
+            <option value=""></option>
+            <option value="Ação">Ação</option>
+            <option value="Fantasia">Fantasia</option>
+            <option value="Ficção">Ficção</option>
+            <option value="Drama">Drama</option>
+            <option value="Comédia">Comédia</option>
+        </select><br><br>
+        <textarea name="descFilm" id="descFilme" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Enviar" name="botao" id="btnEnviar">
+    </form>
+    <script src="./js/main.js"></script>
+</body>
+</html>
