@@ -1,0 +1,33 @@
+header{
+    overflow: hidden;
+    background-color: #f1af09;
+    padding: 20px 10px;
+}
+nav{
+    height: 50px ;
+    background-color: #f1af09;
+    width: 100vw;
+}
+ul{
+ list-style-type: none;
+  margin: 10px;
+  padding:  25px 50px 75px 100px;
+  width: 200px;
+  background-color: pink;
+}
+li{
+    display: block;
+    color:pink;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+h1{
+    color: pink;
+}
+
+footer{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 20px;
+}
